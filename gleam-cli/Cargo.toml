@@ -1,0 +1,10 @@
+[package]
+name = "gleam-cli"
+version = "0.1.0"
+edition = "2024"
+publish = ["mirror"]
+
+[dependencies]
+candle-core = { git = "https://github.com/huggingface/candle.git", branch = "main" }
+candle-nn = { git = "https://github.com/huggingface/candle.git", branch = "main" }
+anyhow = "1"
